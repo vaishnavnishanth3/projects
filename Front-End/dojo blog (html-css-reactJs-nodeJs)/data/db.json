@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "My First Dog",
+      "body": "Why do we use it?\nIt is a long established fact",
+      "author": "mario",
+      "id": "1"
+    },
+    {
+      "title": "Opening Party",
+      "body": "Why do we use it?\nIt is a long established fact",
+      "author": "yoshi",
+      "id": "2"
+    },
+    {
+      "id": "b03e",
+      "title": "Movie Night",
+      "body": "Godzilla X Kong",
+      "author": "Mario"
+    }
+  ]
+}

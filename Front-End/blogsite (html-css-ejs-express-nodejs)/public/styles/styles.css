@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(300deg, #00ddedc6, #0658d4e9, #b00fd0);
+    background-size: 180% 180%;
+    color: white;
+}
+
+.titletext{
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
