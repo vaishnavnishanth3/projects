@@ -1,0 +1,171 @@
+#main{
+    background-image: url("assets/burger-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2{
+    color: white;
+}
+
+h1:hover{
+    color: white;
+}
+
+.newandhot{
+    color: orange;
+}
+
+.newandhot:hover{
+    font-size: 2.5rem;
+    transition: font-size 1.3s;
+}
+
+.special-offers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px white solid;
+    min-width: 25%;
+    width: 25%;
+    min-width: 25%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.item-name h2{
+    color: orange;
+    font-family: 'Comic Sans MS', san-serif;
+    border: 1px solid orange;
+    padding: 20px 5px;
+    border-radius: 20px;
+}
+
+.card img{
+    margin: 20px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.name{
+    font-size: 2rem;
+    color: orange;
+    margin-left: 10px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.price-details p{
+    margin: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.buy-special{
+    margin: 0px 0px 20px 0px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: orange;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.buy-special:hover, .customize button:hover{
+    transform: scale(1.1);
+    transition: transform 0.6s ease;
+}
+
+.price-number{
+    font-size: 2rem;
+    color: orange;
+}
+
+.order-now{
+    margin: 50px 0px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    background: white;
+    border-radius: 30px;
+}
+
+.bookmyshowlogo{
+    margin-left: 10px;
+    width: 20px;
+    border-radius: 20%;
+    margin-bottom: -3px;
+}
+
+.bookmyshowlink{
+    color: black;
+}
+
+.bookmyshowlink:hover{
+    color: red;
+}
+
+.customize{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0px;
+    margin: 0px 30px;
+    background-color: orange;
+    border-radius: 30px;
+}
+
+.customize h1, .customize h2{
+    color: black;
+    margin: 10px;
+}
+
+.customize button{
+    padding:15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family:  'Comic Sans MS', sans-serif;
+}
+
+@media (max-width: 1350px) {
+
+    .card img{
+        width: 200px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card img{
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .card{
+        width: 300px;;
+    }
+
+    .card h2{
+        font-size: 15px;
+    }
+
+    .name{
+        font-size: 1.3rem;
+    }
+    
+    .card p{
+        font-size: 15px;
+    }
+
+    .price-number{
+        font-size: 1.3rem;
+    }
+}

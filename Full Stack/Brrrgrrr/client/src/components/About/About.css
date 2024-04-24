@@ -1,0 +1,60 @@
+.about {
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.title {
+    text-align: left;
+}
+
+.app-name {
+    border: none;
+    color: #00ffff;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Comic Sans MS';
+}
+
+.app-name:hover {
+    border-bottom: 1px solid #00FFFF;
+    transition: border-bottom 1.5s ease;
+}
+
+.content {
+    margin: 20px;
+}
+
+.content p {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+}
+
+.burger {
+    float: right;
+    margin: 10px;
+}
+
+.city {
+    float: left;
+    margin: 10px;
+}
+
+@media (min-width: 600px) {
+    .about {
+        margin-left: 60px;
+    }
+
+    .content {
+        margin: 60px;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+
+    .burger,
+    .city {
+        margin: 20px;
+    }
+}

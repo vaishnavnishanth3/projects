@@ -1,0 +1,37 @@
+.not-found{
+    background-image: url("../Home/assets/burger-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.notfound-content{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px darkgrey solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 100px;
+    padding: 40px;
+}
+
+.notfound-content h1{
+    color: orange;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.notfound-content button {
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: orange;
+}
+
+.notfound-content button img {
+    width: 70px;
+    border-radius: 30px;
+}

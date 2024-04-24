@@ -1,0 +1,59 @@
+.action-area{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    gap: 12%;
+    background-image: url("../Home/assets/burger-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.column1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 21%;
+}
+
+.column1 button{
+    width: 100px;
+    height: 70px;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.3rem;
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+}
+
+.column2 img{
+    border-radius: 20%;
+    width: auto;
+    height: auto;
+    max-width: 600px;
+}
+
+@media (max-width: 1100px) {
+    .action-area{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        gap: 40px;
+        height: 25%;
+    }
+
+    .column2 img{
+        width: 400px;
+    }
+
+    .column1{
+        display:flex;
+        justify-content: center;
+        left: 0%;
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7963b45.css",
+    "main.js": "/static/js/main.21219a56.js",
+    "static/media/burger-background.jpg": "/static/media/burger-background.5de08b8b4665ebeb8c58.jpg",
+    "static/media/instagram-logo.png": "/static/media/instagram-logo.db2612bd586501d9ed3e.png",
+    "static/media/searchImage.png": "/static/media/searchImage.3ff3cffe765e5aa07202.png",
+    "static/media/bookmyshow-logo.png": "/static/media/bookmyshow-logo.2a09f398d41093e62059.png",
+    "static/media/cities.jpeg": "/static/media/cities.630f64d2a5f17bcd5332.jpeg",
+    "static/media/linkedin-logo.jpeg": "/static/media/linkedin-logo.4a2cbbad8215217910be.jpeg",
+    "static/media/burger-image.jpeg": "/static/media/burger-image.95aab949cafafe038d38.jpeg",
+    "static/media/burger.jpeg": "/static/media/burger.5b6276b7503bbcf9d570.jpeg",
+    "index.html": "/index.html",
+    "main.e7963b45.css.map": "/static/css/main.e7963b45.css.map",
+    "main.21219a56.js.map": "/static/js/main.21219a56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7963b45.css",
+    "static/js/main.21219a56.js"
+  ]
+}
