@@ -1,0 +1,74 @@
+.image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image>img{
+    margin-top: 50px;
+    width: 550px;
+}
+
+.search-bar{
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+}
+
+.search-input{
+    padding: 10px;
+    width: 95%;
+    border-radius: 30px;
+}
+
+.search-image{
+    margin-left:20px;
+    padding: 11px;
+    border: 1px solid #333333;
+    border-radius: 25%;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    padding:20px;
+}
+
+.signin-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+
+.signin-image{
+    padding-right: 10px;
+    margin: 10px 0px 0px 10px;
+}
+
+.signin-text{
+    padding-right: 10px;
+}
+
+.search-image:hover{
+    transform:scale(1.1);
+    transition: transform 0.4s;
+}
+
+.search-input:hover{
+    transform:scale(1.05);
+    margin-right: 10px;
+    transition: transform 0.4s, margin-right 0.4s;
+}
+
+.signin-button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid light-grey;
+    color: blue;
+}
