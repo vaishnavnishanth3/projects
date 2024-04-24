@@ -1,0 +1,1 @@
+SELECT * FROM supply_chain_management.admin_info;
