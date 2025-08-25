@@ -18,3 +18,9 @@ And the list will keep growing as I continue to learn and build more projects.
 ## Structure
 
 Each project lives in its own folder with a clear name, so it’s easy to navigate. Example:
+/projects
+├── netflix-clone/ # React + CSS
+├── blog-api/ # Express + MongoDB
+├── portfolio-site/ # HTML, CSS, JS
+├── ecommerce-db/ # PostgreSQL
+└── ...
